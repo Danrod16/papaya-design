@@ -1,0 +1,20 @@
+{
+    "name": "Papaya design: UX/UI design tools",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Papaya design allows you to easily access essential tools for UX/UI design directly from your browser",
+    "icons": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "36": "icons/icon32.png",
+        "48": "icons/icon32.png",
+        "128": "icons/papaya.png",
+        "256": "icons/papaya.png"
+    },
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
